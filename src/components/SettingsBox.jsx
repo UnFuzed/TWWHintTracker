@@ -7,23 +7,28 @@ function SettingsBox() {
   return (
     <div>
       <h1>The Wind Waker Randomizer Hint Tracker</h1>
-      <input 
-        type="checkbox" 
-        id="show-blue-chu" 
-        checked={settings.showBlueChu}
-        onChange={(e) => updateSetting('showBlueChu', e.target.checked)}
-      />
-      <label htmlFor="show-blue-chu">Show Blue Chu</label>
+      
+      <div style={{ padding: '5px' }}>
+        <input 
+            type="checkbox" 
+            id="show-blue-chu" 
+            checked={settings.showBlueChu}
+            onChange={(e) => updateSetting('showBlueChu', e.target.checked)}
+            />
+        <label htmlFor="show-blue-chu">Show Blue Chu</label>
+    </div>
 
-      <input 
-        type="checkbox" 
-        id="show-old-man-ho-ho" 
-        checked={settings.showOldManHoHo}
-        onChange={(e) => updateSetting('showOldManHoHo', e.target.checked)}
-      />
+      <div style={{ padding: '5px' }}>
+        <input 
+          type="checkbox" 
+          id="show-old-man-ho-ho" 
+          checked={settings.showOldManHoHo}
+          onChange={(e) => updateSetting('showOldManHoHo', e.target.checked)}
+        />
       <label htmlFor="show-old-man-ho-ho">Show Old Man Ho Ho</label>
+      </div>
 
-      <div style={{ marginTop: '10px' }}>
+      <div style={{ padding: '5px' }}>
         <label htmlFor="background-color">Background Color: </label>
         <input 
           type="color" 

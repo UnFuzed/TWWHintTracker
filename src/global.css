@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Hylia Serif Beta';
+  src: url('./assets/fonts/HyliaSerifBeta-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Hylia Serif Beta', Georgia, 'Times New Roman', Times, serif;
+}

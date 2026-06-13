@@ -21,7 +21,7 @@ function SeaGrid() {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'flex-start', padding: 16 }}>
-      <div style={{ position: 'relative', width: 'min(90%, 900px)', maxWidth: '900px', aspectRatio: '1 / 1' }}>
+      <div style={{ position: 'relative', width: 'min(90%, 900px)', maxWidth: '600px', aspectRatio: '1 / 1' }}>
         <img
           src={GreatSeaChart}
           alt="Great Sea Chart"
